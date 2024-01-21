@@ -1,0 +1,97 @@
+<html>
+<head> 
+ <title>Questionario Esportivo </title>
+</head>
+<body bgcolor= #39ff14> 
+<!--Usei um E-Mail ficticio para esté formulario-->
+<form method="post"action="mailto:alex_o_leao@teste.com.br">
+<h1>
+ <b>Preencha o formulario para nós ajudar a descobrir qual sua preferência esportiva!</b>
+ </h1>
+ 
+ <p> 
+<b>Qual e o seu esporte preferido?</b>
+ <P> <b>selecione um esporte :</b>
+  Volei <input type=checkbox name="sport" value="Volei">
+  basquete <input type=checkbox name="sport" value="basquete">
+  Futebol <input type=checkbox name="sport" value="Futebol">
+  E-Sport <input type=checkbox name="sport" value="E-Sport">
+  Surf <input type = checkbox name="sport" value= "Surf">
+  Outro <input type = checkbox name="sport" value= "Outro">
+  <textarea name="outro" rows="1" cols="30">digite seu esporte favorito...</textarea>
+ </p>
+ 
+<p>
+ <b>Informe seu sexo:</b> M
+ <input type="radio" name"sex" value"M">
+ F
+ <input type="radio" name"sex" value"F">
+ Outro
+ <input type="radio" name"sex" value"Outro">
+ </p>
+
+<p>
+ <b>Informe sua idade:</b> 10-16
+ <input type="radio" name"idade" value"10-16">
+ 18-24
+ <input type="radio" name"idade" value"18-24">
+ 30+
+ <input type="radio" name"idade" value"30+">
+</p>
+
+<P> 
+<b>Informe seu estado civil:</b>
+Casado(a) <input type=radio name=" marital status" value=Casado(a)>
+Solteiro (a) <input type=radio name="marital status" value=Solteiro(a)>
+Divorciado (a) <input type=radio name="marital status" value=Divorciado(a)></p>
+
+<p>
+ <b>Informe seu estado:</b>
+  <select id="UF" name="UF">
+    <option value="">Selecione</option>
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espirito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+</select>
+</p>
+
+<p>
+ <b> Informe sua cidade:</b>
+ <textarea name="city" rows="1" cols="30">Informe sua cidade</textarea>
+</p> 
+<!--Ao fim, é sempre bom saber o motivo pelo enteresse pelo esporte escolhido-->
+<p>
+ <b>Gostaria de falar um pouco sobre seu esporte favorito?</b><br>
+ <textarea name="message" rows="5" cols="50">Fale sobre seu esporte favorito...</textarea>
+</p>
+ 
+<input type="RESET" value="Redefinir">
+<input type="SUBMIT" value="ENVIAR">
+ <input type="HIDDEN" name="mail" value="alex_o_leao@teste.com.br">
+</form> 
+</body>
+</html>
